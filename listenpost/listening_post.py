@@ -2,8 +2,8 @@ import socket
 import subprocess
 
 # Define the listening address and port
-HOST = '0.0.0.0'  # Listen on all available network interfaces
-PORT = 12345  # Choose a port for communication
+HOST = '127.0.0.1'  # Listen on all available network interfaces
+PORT = 8080  # Choose a port for communication
 
 def main():
     # Create a socket and bind it to the specified address and port
